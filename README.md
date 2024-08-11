@@ -12,12 +12,29 @@ Vi kan även installera via terminalen:
 winget install Microsoft.VisualStudioCode
 winget install git.git
 ```
-### Intro till *VS Code*
+## Komma igång med github
+
+Github är en tjänst för att lagra och dela kod. Du kommer att använda github för att lagra dina projekt och för att lämna in labbar och prov.
+
+* Skapa ett konto på [github.com](https://github.com)
+  * Döp kontot till: klass-förnamn-efternamn
+  * Valfritt lösenord
+  * Använd din skolmail
+
+## Intro till *VS Code*
 
 *VS Code* är en fantastisk editor som är gratis och som fungerar på alla plattformar:
 https://www.youtube.com/watch?v=B-s71n0dHUk&list=PLj6YeMhvp2S5UgiQnBfvD7XgOMKs3O_G6
 
-### Kortare prompt i Powershell
+## Installera tillägg i VS Code
+Med tillägg i VS Code förenklas arbetet med att skapa och underhålla projekt.  
+Följande tillägg kommer att installeras automatiskt:
+
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+* [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
+
+## Kortare prompt i Powershell
 
 I terminalen i *VS Code* blir prompten väldigt lång.  
 Gör följande för att korta ned prompten i Terminalen/Konsolen i *VS Code*.
@@ -48,13 +65,3 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 * Starta om *VS Code*
 
 [Hur man får en kort prompt i terminalen](https://superuser.com/questions/446827/configure-windows-powershell-to-display-only-the-current-folder-name-in-the-shel)
-
-## Komma igång med github
-
-Github är en tjänst för att lagra och dela kod. Du kommer att använda github för att lagra dina projekt och för att lämna in labbar och prov.
-
-* Skapa ett konto på [github.com](https://github.com)
-  * Döp kontot till: klass-förnamn-efternamn
-  * Valfritt lösenord
-  * Använd din skolmail
-
