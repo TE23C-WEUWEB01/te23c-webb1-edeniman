@@ -1,0 +1,49 @@
+body {
+background: red;
+}
+.wrapper {
+width: 90%;
+max-height: 960px;
+min-height: 600px;
+background: white;
+
+margin-left: auto;
+margin-right: auto;
+}
+header {
+    background: blue;
+    height: 220px;
+}
+
+.logo {
+    background: green;
+    width: 40%;
+    float: left;
+}
+nav.meny {
+    background: pink;
+    width: 55%;
+    float: right;
+}
+
+nav {}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    
+
+
+}
+nav a:hover {}
+
+
+
+}
