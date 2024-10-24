@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Turret+Road&display=swap');
+
+/* Sidans bakgrund */
+body {
+      background-color: rgb(142, 142, 142);
+
+}
+
+/* Kontainer utseende */
+.kontainer {
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+    font-family: "Iceland", sans-serif;
+    font-size: 150%;
+    font-stretch: wider;
+
+}
+h1{
+    font-family: "Turret Road", sans-serif;
+    font-size: 200%; 
+}
+h2{}
+
+/* Boxarnas utseende */
+.bild {
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+
+
+}
+img {
+    width: 100%;
+}
+h3{}
+p{}
+a{}
+
+

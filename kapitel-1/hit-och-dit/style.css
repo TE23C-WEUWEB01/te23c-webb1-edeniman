@@ -11,19 +11,25 @@ margin-left: auto;
 margin-right: auto;
 }
 header {
-    background: blue;
-    height: 220px;
+    background:;
+    height: 150px;
 }
 
 .logo {
-    background: green;
+    background:;
     width: 40%;
     float: left;
 }
+.logo img {
+    width: 100px;
+
+
+}
 nav.meny {
     background: pink;
-    width: 55%;
+    width: 60%;
     float: right;
+    margin-top: 45px;
 }
 
 nav {}
@@ -38,11 +44,24 @@ nav li {
 nav a {
     text-decoration: none;
     color: rgb(54, 54, 54);
-    
+    font-size: 14px;
+    text-transform: uppercase;
+    background: white;
+    padding: 10px;
+    padding-bottom: 8px;
+    border-radius: 5px;
 
 
 }
-nav a:hover {}
+nav a:hover {
+    background: rgb(24, 24, 255);
+    color: white;
+
+
+
+
+
+}
 
 
 
