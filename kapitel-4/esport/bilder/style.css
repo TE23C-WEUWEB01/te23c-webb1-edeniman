@@ -1,0 +1,52 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Layout */
+body {
+    background-color: blueviolet;
+
+}
+.kontainer {
+    font-family: "Roboto Flex" 
+    width: 800px;
+    margin: auto; 
+    padding: 40px;
+    background-color: beige;
+}
+.bild {
+    background-color: black;
+    color:azure;
+    padding: 20px;
+}
+/* Rubrikerna */
+h1 {
+   font-family: "Faster One", system-ui;
+   font-size: 75px; 
+}
+h2 {
+
+}
+
+/* Sidans innehåll */ 
+img {
+width: 50%;
+
+}
+
+.bildtext { 
+
+}
+.thanks {
+
+}
+a {
+
+}
