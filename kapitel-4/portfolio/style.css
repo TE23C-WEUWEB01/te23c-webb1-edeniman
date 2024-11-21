@@ -19,61 +19,82 @@ h5,
 h6,
 p,
 ul {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 20px;
 }
 
 /* Layout */
 body {
     background-color: #1a4413;
+    scroll-padding: 50px;
 
 }
 
 .kontainer {
     font-family: "League Spartan";
-    width: 900px;
+    width: 1200px;
     margin: auto;
-    padding: 40px;
+    padding: 50px;
     background-color: rgb(113, 155, 115);
+}
+.presentation {
+    background-color: #0e460e;
+    color: rgb(198, 217, 203);
+    font-size: 115%;
+    margin-bottom: 40px;
+    text-align: center;
+    border:white;
+    border: 10px solid rgb(201, 222, 201);
+
 }
 
 .kolumn {
     display: flex;
+    flex-direction: row;
     gap: 50px;
+    border-radius: 40px;
+    margin-inline: 5px;
 }
 
 .bild {
-    background-color: #3034329e;
-    color: #fff;
-    padding: 20px;
-    margin-bottom: 50px;
+    background-color: #1a4413;
+    color: #ccdec9db;
+    padding: 30px;
+    margin-bottom: 40px;
     display: flex;
-    gap: 50px;
-    border-radius: 50px;
+    gap: 10px;
+    border-radius: 40px;
 }
 
 /* Rubrikerna */
 h1 {
     font-family: "Poiret One", system-ui;
-    font-size: 70px;
-    margin-bottom: 20px;
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgb(9, 59, 9);
+    margin-inline-start: 400px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 h2 {
-    margin-bottom: 20px;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-inline-start: 38px;
+    color: #d2e5cf;
 
 }
 
 /* Sidans innehåll */
 img {
-    height: 60%;
-    width: 50%;
+    height: 10%;
+    width: 40%;
     border-radius: 10px;
-    border: 5px solid white;
+    border: 6px solid rgb(255, 255, 255);
 }
 
-.bildtext {}
+.bildtext {
+    font-size: 115%;
+    
 
-.thanks {}
-
-a {}
+}
