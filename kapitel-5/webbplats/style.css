@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -10,74 +11,101 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 body{
-
-
+    background-color: #3d2c45;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+
 .kontainer{
-    font-family: "League Spartan", serif;
-    width: 900px;
-    padding: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    width: 1000px;
+    padding: 100px;
     margin: auto;
-    background-color: #1A759F;
+    background-color: #a9aca9;
 }
 
 /* menyns utseende */
 
-ul{
+.kontainer ul{
     display: flex;
     justify-content: space-between;
-    gap: 13px;
+    gap: 25px;
 }
 
-li{
+
+.kontainer ul li{
     list-style-type: none;
     text-decoration: #168AAD;
 
 }
 
-a{
-    text-decoration: none;
-    color: #168AAD;
-    background-color: #B5E48C;
-    padding: 10px;
-    border-radius: 3px;
-    text-align: center;
-}
-a:hover{
-    background-color: black;
 
+.kontainer ul .a{
+    text-decoration: none;
+    color: #bfc3ba;
+    background-color: #60495a;
+    padding: 8px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
 }
+
+
+.kontainer ul a:hover{
+    background-color: #7f7e7e;
+    color: #2f2235;
+    font-weight: bold;
+}
+
 
 /* innehållet */
 
-h1{
-    font-family: "League Spartan", serif;
-    color: #B5E48C;
-    font-size: 80px;
+.kontainer h1{
+    font-family: "Niconne", cursive;
+    color: #3f3244;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 30px;
 }
-figure{
-    background-color: aliceblue;
+
+
+.kontainer figure{
+    background-color: #3F3244;
     padding: 30px;
-    width: 60%;
+    width: 90%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-img{
+
+.kontainer figure img{
     width: 100%;
-    
 }
 
-figcaption{
 
+.kontainer figure figcaption{
+    color: #bfc3ba;
 }
 
-p{
+
+.kontainer p{
     margin-bottom: 15px;
+    color: #2f2235;
+    font-size: 100%;
+    font-weight: bold;
 }
 
-.tack{
+
+.kontainer .tack{
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.kontainer .tack a{
+    text-decoration: none;
+    color: #2f2235;
 
 }
 
