@@ -36,17 +36,18 @@ body{
 
 .kontainer ul li{
     list-style-type: none;
-    text-decoration: #168AAD;
+    text-decoration: #790404;
+    
 
 }
 
 
-.kontainer ul .a{
+.kontainer ul a{
     text-decoration: none;
     color: #bfc3ba;
     background-color: #60495a;
     padding: 8px;
-    border-radius: 50px;
+    border-radius: 20px;
     text-align: center;
     font-weight: bold;
 }
