@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(8, 221, 221);
+}
+
+.kontainer fieldset {
+    background-color: rgb(5, 228, 228);
+    padding: 20px;
+    border-radius: 20px;
+    border: 10px solid rgb(52, 65, 161);
+    font-family: "Parkinsans", serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    
+}
+
+.kontainer legend {
+    font-size: 40px;
+    color: rgb(52, 65, 161);
+}
+
+.kontainer label {
+    font-size: 20px;
+    color: rgb(52, 65, 161);
+}
+
+.kontainer input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(52, 65, 161);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.kontainer select {
+
+}
+
+.kontainer textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(52, 65, 161);
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.kontainer button {
+    font-weight: bold;
+    padding: 10x;
+    font-size: 18px;
+    border: navy;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #f2f9fe 0%,#d6f0fd 100%);
+}
+
+.kontainer button:hover {
+    background: linear-gradient(to bottom, #d6f9ff 0%,#9ee8fa 100%);
+}
