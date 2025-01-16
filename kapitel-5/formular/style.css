@@ -67,13 +67,14 @@ body {}
 
 .kontainer button {
     font-weight: bold;
-    padding: 10x;
+    padding: 60x;
     font-size: 18px;
-    border: navy;
+    border: rgb(60, 60, 134);
     cursor: pointer;
     background: linear-gradient(to bottom, #f2f9fe 0%,#d6f0fd 100%);
+   margin-left: 190%;
 }
 
 .kontainer button:hover {
-    background: linear-gradient(to bottom, #d6f9ff 0%,#9ee8fa 100%);
+    background: linear-gradient(to bottom, #cd99f8 0%,#7682bb 100%);
 }
