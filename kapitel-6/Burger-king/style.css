@@ -12,19 +12,57 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 
-/*
-Bg färg = #FBF7F1
-Bg bild = #F5EBDC
-Textfärg = #502314
-Knappen färg = #CC2200
-Typpsnitt = Oleo script
-font-family: "Oleo Script", serif;
-  font-weight: 400;
-  font-style: normal;
-*/
+/* Sidans utseende */
+.kontainer .sidhuvud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontainer .sidhuvud img {
+    margin-left: 50px;
+}
+
+.kontainer .sidhuvud ul {
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.kontainer .sidhuvud li {
+    display: inline;
+}
+
+.kontainer .sidhuvud li a {
+    color:blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 5px 15px;
+}
 
 
-/* sidlayouten */ 
+/* Innehållets utseende */ 
+.kontainer .rutnät {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+
+.kontainer .rutnät .produkt {
+    padding: 20px;
+}
+
+/* Bakgrundsfärger */
+.kontainer .ljus {
+    background: -moz-radial-gradient();
+}
+
+.kontainer .mörk {
+    background: -moz-repeating-radial-gradient();
+}
+
+
+
 body {}
 .kontainer {}
 
