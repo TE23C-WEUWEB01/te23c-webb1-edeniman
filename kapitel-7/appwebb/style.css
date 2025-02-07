@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -15,7 +16,12 @@ img {
 }
 
 /* Sidans layout */
+body {
+    
+    background-image: url(./istockphoto-2063544198-612x612.webp);
+}
 .kontainer {
+    gap: 20px;
     width: 1000px;
     margin: auto;
     display: grid;
@@ -29,21 +35,80 @@ img {
 }
 header {
     grid-area: sidhuvud;
-    background-color: green;
+    background-color: transparent;
 
 }
 main {
     grid-area: innehall;
-    background-color: aqua;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: large;
 
 }
 aside {
     grid-area: sidebar;
-    background-color: blue;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
 
 }
 footer {
     grid-area: sidfot;
-    background-color: violet;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
 
 }
+
+/* sidbuvudet */
+header h1 {
+    font-family: "Oleo Script", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: #fff;
+
+}
+header h2 {
+    font-family: "Oleo Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+
+}
+header nav {
+    font-family: "Oleo Script", serif;
+    color: #fff;
+    padding: 20px;
+    background: rgb(162,243,162);
+    background: linear-gradient(0deg, rgba(162,243,162,1) 0%, rgba(57,202,43,1) 51%, rgba(5,147,23,1) 100%);
+    
+
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    
+
+}
+header nav a:hover {
+    color: #fff;
+    
+    
+
+}
+
+/* sidans innehåll*/
+img {
+    
+}
+
+
+/* sidofält */
+
+
+/* sidfoten */
+
+
